@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Feed BaseUrl="https://rawgit.com/saboyanosh/GSatMicroToolkitUpdate/master/">
   <Tasks>
-    <FileUpdateTask localPath="GSatMicroFirmwareFiles\elua_lualong_gsatmicro_vDEFAULT.bin" lastModified="130850972500000000" fileSize="222280" version="0.0.0.0">
+    <FileUpdateTask localPath="elua_lualong_gsatmicro_vDEFAULT.bin" lastModified="130850972500000000" fileSize="222280" version="0.0.0.0">
       <Conditions>
         <FileExistsCondition type="or-not" />
         <FileVersionCondition type="or" what="below" version="0.0.0.0" />
