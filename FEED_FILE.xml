@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feed BaseUrl="https://github.com/saboyanosh/GSatMicroToolkitUpdate">
+  <Tasks>
+    <FileUpdateTask localPath="GSatMicroFirmwareFiles\elua_lualong_gsatmicro_vDEFAULT.bin" lastModified="130850972500000000" fileSize="222280" version="0.0.0.0">
+      <Conditions>
+        <FileExistsCondition type="or-not" />
+        <FileVersionCondition type="or" what="below" version="0.0.0.0" />
+        <FileSizeCondition type="or-not" what="is" size="222280" />
+        <FileDateCondition type="or" what="older" timestamp="130850972500000000" />
+        <FileChecksumCondition type="or-not" checksumType="sha256" checksum="9523AA07A5EDED27498C55FD1F1F42C4622F4475A0E6F228E45ED02196C78424" />
+      </Conditions>
+    </FileUpdateTask>
+    <FileUpdateTask localPath="ToggleSwitch.dll" lastModified="130863912960000000" fileSize="104448" version="1.0.0.0">
+      <Conditions>
+        <FileExistsCondition type="or-not" />
+        <FileVersionCondition type="or" what="below" version="1.0.0.0" />
+        <FileSizeCondition type="or-not" what="is" size="104448" />
+        <FileDateCondition type="or" what="older" timestamp="130863912960000000" />
+        <FileChecksumCondition type="or-not" checksumType="sha256" checksum="620B3D094E97018CD9839BCD5D390D020B73256E59968DA3A5E9ACEEF9C862BD" />
+      </Conditions>
+    </FileUpdateTask>
+  </Tasks>
+</Feed>
